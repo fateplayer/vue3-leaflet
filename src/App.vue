@@ -2,7 +2,7 @@
  * @Author: fanyun
  * @Date: 2024-05-01 09:04:17
  * @LastEditors: fanyun
- * @LastEditTime: 2024-05-01 18:36:30
+ * @LastEditTime: 2024-05-03 12:23:26
  * @Description: 
  * 
 -->
@@ -16,13 +16,14 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <!-- <HelloWorld msg="You did it!" /> -->
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/map1">map1</RouterLink>
         <RouterLink to="/map2">map2</RouterLink>
         <RouterLink to="/map3">map3</RouterLink>
+        <RouterLink to="/map4">map4</RouterLink>
       </nav>
     </div>
   </header>

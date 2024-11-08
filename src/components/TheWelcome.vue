@@ -2,7 +2,7 @@
  * @Author: fanyun
  * @Date: 2024-05-01 09:04:17
  * @LastEditors: fanyun
- * @LastEditTime: 2024-05-01 18:42:46
+ * @LastEditTime: 2024-05-03 12:21:37
  * @Description: 
  * 
 -->
@@ -21,7 +21,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <DocumentationIcon />
     </template>
     <template #heading>Documentation</template>
-    <p>学习vue3+leafletjs的模版</p>
+    <p>学习vue3+leafletjs的循序渐进模版</p>
     <p>环境：win11、vscode、node 18.16.0、vue3(yarn命令构建)</p>
   </WelcomeItem>
 

@@ -2,7 +2,7 @@
  * @Author: fanyun
  * @Date: 2024-05-01 09:04:17
  * @LastEditors: fanyun
- * @LastEditTime: 2024-05-01 18:47:39
+ * @LastEditTime: 2024-05-03 12:23:21
  * @Description:
  *
  */
@@ -31,6 +31,11 @@ const router = createRouter({
       path: '/map3',
       name: 'map3',
       component: () => import('../views/MapView3.vue')
+    },
+    {
+      path: '/map4',
+      name: 'map4',
+      component: () => import('../views/MapView4.vue')
     }
   ]
 })
